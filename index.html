@@ -9,7 +9,47 @@
 </head>
 
 <body>
-
+    <div class="wrapper">
+        <input class="form-control" type="text" placeholder="Введіть Назву або ЄДРПОУ" id="search-text"
+            onkeyup="tableSearch()">
+        <table class="table table-striped" id="info-table">
+            <thead>
+                <tr>
+                    <th>Назва</th>
+                    <th>ЄДРПОУ</th>
+                    <th>Завантажити файл</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Товариство з обмеженою відповідальністю "ЦУНАМІ"</td>
+                    <td>31572226</td>
+                    <td><a href="/src/Цунамі згода.zip" download="">Завантажити згоду</a></td>
+                </tr>
+                <tr>
+                    <td>Товариство з обмеженою відповідальністю "ЛІСПРОМ-ГРУП"</td>
+                    <td>43069427</td>
+                    <td><a href="/src/Ліспром-груп.zip" download="">Завантажити згоду</a></td>
+                </tr>
+                <tr>
+                    <td>Приватне підприємство "Ламбер трейд"</td>
+                    <td>35743229</td>
+                    <td><a href="/src/Ліспром-груп.zip" download="">Завантажити згоду</a></td>
+                </tr>
+                <tr>
+                    <td>Фізична особа – підприємець Голубенний Тарас Миколайович</td>
+                    <td>3255421033</td>
+                    <td><a href="/src/ФОП ГОлубенний ТМ.zip" download="">Завантажити згоду</a></td>
+                </tr>
+                <tr>
+                    <td>Фізична особа – підприємець Піскун Олександр Анатолійович</td>
+                    <td>3314512282</td>
+                    <td><a href="/src/ФОП Піскун ОА.zip" download="">Завантажити згоду</a></td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
 </body>
+<script src="/app.js"></script>
 
 </html>
